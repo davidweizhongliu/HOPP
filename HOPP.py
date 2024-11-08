@@ -5,7 +5,7 @@ from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
 import csv
 
-distance_min = 2.2 # this is the minial distance between clusters
+distance_min = 2.2 # this is the minimal distance between clusters
 def HKmodel(data,x,y,z,distance_min):  #data It should be a three-dimensional list that has been read, and xyz is the list corresponding to each coordinate
     # np.linalg.norm(x) #The default is to find the second norm of the matrix x
     a = data
